@@ -14,8 +14,8 @@ from matplotlib import pyplot as plt
 
 from read_write import imread
 
-INPUT_DIRECTORY = r'D:\dataset\#02_기준노면(픽셀Resize_1mm_pixel)\아스팔트포장'
-WRITE_DIRECTORY = r'D:\dataset\#02_기준노면(픽셀Resize_1mm_pixel)\아스팔트포장.xlsx'
+INPUT_DIRECTORY = r'./images'
+WRITE_DIRECTORY = r'./sample.xlsx'
 DATA_HEADER = ['name', 'max', 'mean', 'std']
 
 
